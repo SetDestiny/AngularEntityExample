@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\AngularEntityExample.DataAccess.dll
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\AngularEntityExample.DataAccess.pdb
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\AngularEntityExample.Data.dll
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\AngularEntityExample.Data.pdb
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\obj\Debug\AngularEntityExample.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\obj\Debug\AngularEntityExample.DataAccess.dll
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.DataAccess\obj\Debug\AngularEntityExample.DataAccess.pdb

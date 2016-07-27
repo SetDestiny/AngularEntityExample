@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.Data\bin\Debug\AngularEntityExample.Data.dll
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.Data\bin\Debug\AngularEntityExample.Data.pdb
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.Data\obj\Debug\AngularEntityExample.Data.dll
+C:\Users\Administrator\Desktop\Projects\ASP.NET MVC Projects\AngularEntityExample\AngularEntityExample.Data\obj\Debug\AngularEntityExample.Data.pdb

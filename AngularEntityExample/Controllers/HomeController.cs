@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using AngularEntityExample.Data;
+using AngularEntityExample.DataAccess.Repositories;
 
 namespace AngularEntityExample.Controllers
 {
@@ -10,20 +8,19 @@ namespace AngularEntityExample.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            IUserRepository rep = new UserRepository();
+            var users = rep.GetUsersList();
+            return View(users);
         }
 
-        public ActionResult About()
+        public ActionResult CreateUser(User user)
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
+            if (ModelState.IsValid && ModelState.Count!=0)
+            {
+                IUserRepository rep = new UserRepository();
+                rep.CreateUser(user);
+                return RedirectToAction("Index");
+            }
             return View();
         }
     }
