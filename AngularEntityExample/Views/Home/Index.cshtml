@@ -1,12 +1,20 @@
-﻿@model IList<AngularEntityExample.Data.User>
-
+﻿
 @{
     ViewBag.Title = "Home Page";
 }
 
-<div class="container">
-    @foreach (var item in Model)
-    {
-        <label>@item.Name</label>
-    }
+<div ng-app="app"
+     ng-controller="UserController as uc">
+    <div class="container">
+        <p>{{uc.person.Name}}</p>
+    </div>
 </div>
+
+
+
+
+@section scripts{
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/App/app.module.js"></script>
+    <script src="~/App/user.controller.js"></script>
+}

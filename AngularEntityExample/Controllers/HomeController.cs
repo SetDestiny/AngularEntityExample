@@ -8,8 +8,8 @@ namespace AngularEntityExample.Controllers
     {
         public ActionResult Index()
         {
-            IUserRepository rep = new UserRepository();
-            var users = rep.GetUsersList();
+            IUserRepository da = new UserRepository();
+            var users = da.GetUsersList();
             return View(users);
         }
 
@@ -17,8 +17,8 @@ namespace AngularEntityExample.Controllers
         {
             if (ModelState.IsValid && ModelState.Count!=0)
             {
-                IUserRepository rep = new UserRepository();
-                rep.CreateUser(user);
+                IUserRepository da = new UserRepository();
+                da.CreateUser(user);
                 return RedirectToAction("Index");
             }
             return View();
